@@ -9,6 +9,6 @@ app.get("/", function (req, res) {
   res.send("Hello Word");
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log("server is live on port:");
 });
